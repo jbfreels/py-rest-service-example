@@ -1,0 +1,11 @@
+{
+  "INDEX": {
+    "pattern": "/",
+    "classname": "Index"
+  },
+
+  "MXD_TEMPLATES_BASE": {
+    "pattern": "/arcgis/rest/services/eIndexToolbox/GetTemplateList/GPServer/GetTemplateList",
+    "classname": "GetTemplateList"
+  }
+}
