@@ -15,8 +15,7 @@ I've tested this project on
   * python 3.6.2 64-bit
 * Arch Linux (5.3.12)
   * python 3.7.4 64-bit
-
-**should** work with python 2.7, LMK
+  * python 2.7.17 64-bit
 
 ## running
 `python rest-service.py`
