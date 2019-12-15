@@ -20,8 +20,15 @@ class Index:
 class GetTemplateList:
   def __init__ (self):
     with open ("json/GetTemplateList01.json", 'r') as f:
-      self.data = f.read ()
-      self.json = json.loads (self.data)
+      self.json = json.loads (f.read ())
 
+  def GET (self):
+    return self.json
+
+class Hello:
+  def __init__ (self):
+    with open ("json/Hello.json", 'r') as f:
+      self.json = json.loads (f.read ())
+  
   def GET (self):
     return self.json
